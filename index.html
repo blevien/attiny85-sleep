@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Attiny85-sleep by blevien</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Attiny85-sleep</h1>
+        <h2>A small example of putting the attiny85 to sleep, and waking on an interrupt pin to use as a baseline for other embedded projects for kids toys.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/blevien/attiny85-sleep/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/blevien/attiny85-sleep/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/blevien/attiny85-sleep" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="attiny85-sleep-" class="anchor" href="#attiny85-sleep-" aria-hidden="true"><span class="octicon octicon-link"></span></a>attiny85 Sleep </h1>
+
+<p>I have been attempting to make alot of LED/Blinkie Toys/Reading Lights for my kids who never turn the power switch off on stuff, so I wanted to make a baseline low-power sketch to start from so I am not constantly replacing batteries.</p>
+
+<p>Assuming my measurements/calculations are correct, in sleep mode with an interrupt enabled for a single button a toy built on this code should consume .5 mA which would last for 150 days on 1800 mAh Eneloop AA batteries. Obviously, less depending on what it does when it's awake.</p>
+
+<p>I would also like to eventually turn on a timer to enter sleep mode for projects that don't have a finite awake routine.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
